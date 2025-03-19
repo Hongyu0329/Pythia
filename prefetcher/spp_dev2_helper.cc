@@ -2,6 +2,7 @@
 #include <assert.h>
 #include "spp_dev2_helper.h"
 #include "cache.h"
+#include <cstdint>
 
 using namespace std;
 

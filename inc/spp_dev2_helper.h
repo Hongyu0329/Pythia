@@ -49,6 +49,8 @@
 #define GLOBAL_COUNTER_MAX ((1 << GLOBAL_COUNTER_BIT) - 1) 
 #define MAX_GHR_ENTRY 8
 
+#include <cstdint>
+
 /* Aux functions and structures */
 uint64_t get_hash(uint64_t key);
 enum FILTER_REQUEST {SPP_L2C_PREFETCH, SPP_LLC_PREFETCH, L2C_DEMAND, L2C_EVICT}; // Request type for prefetch filter
